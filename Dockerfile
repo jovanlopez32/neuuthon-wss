@@ -18,7 +18,7 @@ RUN apk add nodejs \
 
 
 RUN git clone https://github.com/jovanlopez32/neuuthon-wss.git
-RUN mv Baileys.cpp /app
+RUN mv neuuthon-wss /app
 WORKDIR /app
 RUN yarn
 RUN git clone --branch master-efd0564 https://github.com/ggerganov/llama.cpp.git
