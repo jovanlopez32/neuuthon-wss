@@ -17,7 +17,7 @@ RUN apk add nodejs \
      bash
 
 
-RUN git clone https://github.com/HirCoir/Baileys.cpp
+RUN git clone https://github.com/jovanlopez32/neuuthon-wss.git
 RUN mv Baileys.cpp /app
 WORKDIR /app
 RUN yarn
